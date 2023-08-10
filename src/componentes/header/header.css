@@ -4,3 +4,15 @@ li{
     padding: 5px 20px;
     
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 60px;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+.quicksand {font-family: 'Quicksand', sans-serif ;
+text-decoration: none;}
