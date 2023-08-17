@@ -2,15 +2,17 @@ import React from 'react'
 import MenuEnlaces from './MenuEnlaces'
 import '../../estilosgenerales.css'
 import './header.css'
-import Login from '../Login'
+
+import logoPortal from './imgs/logoportal.png'
+import Login from '../login'
 
 const Encabezado = () => {
   return (
     <div className='header'>
-
-      <div className='blanco'>PORTAL DE EVENTOS</div>
+      <img src={logoPortal} alt="" className=''/>
+      <div className='blanco'></div>
       <MenuEnlaces />
-      <Login />
+<Login />
 
     </div>
   )

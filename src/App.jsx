@@ -1,14 +1,17 @@
-//import './App.css'
+import React from 'react'
+import './App.css'
+import PiePagina from './componentes/footer/Footer'
 import Encabezado from './componentes/header/header'
 
-function App() {
 
-  return (
-    <>
-    <Encabezado/>
-      <h3>Hola</h3>
-  
-    </>
+
+const App = () => {
+  return (  <>
+    <Encabezado />
+    <h3>Hssola</h3>
+    <PiePagina />
+ 
+  </>
   )
 }
 
